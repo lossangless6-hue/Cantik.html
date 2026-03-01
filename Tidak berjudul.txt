@@ -1,0 +1,18 @@
+<html>
+  <body>
+    <h1>Hai cantikkk</h1>
+    <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdTinA3UzKvji9pGMcm1A-woWKqfkD8w_lw&s'                                                                                 
+    <h1>Mau ga di tampar tampar?</h1>
+    <button id='btn_mau' onclick='alert("lopyuuu cantikkk(⁠｡⁠♡⁠‿⁠♡⁠｡⁠)")'>mau</button>
+    <button id='btn_gamau' onclick='gamau(this)' style='position:absolute'>gamau</button>
+  </body>
+  <script>
+    function gamau(id){
+      var mau = document.getElementById('btn_mau');
+      var i = Math.floor(Math.random()*300)+1;
+      var j = Math.floor(Math.random()*100)+mau.offsetTop;
+      id.style.left = i+'px';
+      id.style.top = j+'px';
+    }
+  </script>
+</html>
